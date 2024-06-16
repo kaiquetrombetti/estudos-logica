@@ -1,0 +1,34 @@
+REVIEW AULA ANTERIOR DE GIT
+git status
+git add
+git commit
+pegar o que está comitado na maquina e mandar para o git
+git push
+
+NOVOS COMANDOS DE GIT
+pegar o que está no git e trazer para a sua maquina
+git pull
+
+criar um novo ramo
+git checkout -B ramo-do-hnk-16-06
+
+volta a configurações originais do arquivo no ramo atual
+git checkout <nome do arquivo>
+
+quando quero retornar um arquivo que ja recebeu um git add (arquivo verdinho no git status)
+git reset <nome do arquivo>
+
+listar todas a branchs do pc
+git branch 
+
+deleta a branch
+git branch -D <nome_da_branch>
+
+trocar de ramo
+git checkout <nome_da_branch>
+
+armazenar na memoria arquivos que não quero commitar no momento 
+git stash
+
+voltar os arquivos que estava na memoria
+git stash pop
